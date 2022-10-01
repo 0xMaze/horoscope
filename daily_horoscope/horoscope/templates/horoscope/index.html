@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope homepage</title>
+</head>
+<body>
+    <h1>Horoscope</h1>
+    <hr>
+    <h2>Today's Horoscope for:</h2>
+    <ul>
+        <h4>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Aries"><li>Aries</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Taurus"><li>Taurus</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Gemini"><li>Gemini</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Cancer"><li>Cancer</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Leo"><li>Leo</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Virgo"><li>Virgo</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Libra"><li>Libra</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Scorpio"><li>Scorpio</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Sagittarius"><li>Sagittarius</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Capricorn"><li>Capricorn</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Aquarius"><li>Aquarius</li></a>
+            <a href="{% url 'horoscope:horoscope_page' %}?sign=Pisces"><li>Pisces</li></a>
+        </h4>
+    </ul>
+</body>
+</html>
